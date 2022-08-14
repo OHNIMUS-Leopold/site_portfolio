@@ -14,14 +14,14 @@
   </div>
   <div>
     <h2 class="font-Poppins font-bold text-center text-black text-2xl">Mes projets universitaires</h2>
-    <div class="mt-6 flex flex-col">
-      <h3 class="font-Poppins font-normal text-center text-black text-xl">POP KONNECT 서울</h3>
-      <div class="flex mx-auto space-x-4 my-3">
-        <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9"></a>
-        <a href="https://www.figma.com/file/p36UwfbiOgsrn7BNV9gT37/R209---Maquettes---L%C3%A9opold-OHNIMUS"><img src="../assets/img/figma.png" alt="maquette" class="h-9"></a>
-        <a href="https://github.com/OHNIMUS-Leopold/SAE_DEV"><img src="../assets/img/github.png" alt="code source" class="h-9"></a>
+      <div class="mt-6 border-black border-2 w-max p-2 flex flex-col mx-auto">
+        <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">POP KONNECT 서울</h3></div>
+        <div class="flex mx-auto space-x-4 my-3">
+          <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9"></a>
+          <a href="https://www.figma.com/file/p36UwfbiOgsrn7BNV9gT37/R209---Maquettes---L%C3%A9opold-OHNIMUS"><img src="../assets/img/figma.png" alt="maquette" class="h-9"></a>
+          <a href="https://github.com/OHNIMUS-Leopold/SAE_DEV"><img src="../assets/img/github.png" alt="code source" class="h-9"></a>
+        </div>
+        <div class="mx-auto"><a href="https://pop-konnect.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-black text-xs">https://pop-konnect.leopold-ohnimus.fr/</h4></a></div>
       </div>
-      <a href="https://pop-konnect.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://pop-konnect.leopold-ohnimus.fr/</h4></a>
-    </div>
   </div>
 </template>
