@@ -1,6 +1,7 @@
 <template>
   <div class="mt-14">
     <h1 class="font-Poppins text-black uppercase text-center text-5xl font-bold">Léopold Ohnimus</h1>
+    <img class="w-64 mx-auto mt-6 mb-12" src="/pp.png" alt="Léopold Ohnimus">
   </div>
   <div class="mt-8 mb-20 flex flex-col">
     <h2 class="font-Poppins font-bold text-center text-black text-2xl">Mes réseaux</h2>
@@ -12,9 +13,18 @@
       <a href="https://open.spotify.com/user/mke3r6jcqoz4rpt1jughoh6ax"><img src="../assets/img/spotify.png" alt="spotify" class="h-11"></a>
     </div>
   </div>
-  <div class="mb-4">
+  <div class="mb-14">
     <h2 class="font-Poppins font-bold text-center text-black text-2xl">Mes projets universitaires</h2>
       <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(320px,1fr))] mx-4 justify-items-center">
+        <div class="mt-6 border-black border-2 w-max p-2 flex flex-col ">
+          <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">Korean Notes</h3></div>
+          <div class="flex mx-auto space-x-4 my-3">
+            <!-- <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9"></a> -->
+            <a href="https://www.figma.com/file/9cyqmICslBXaKZIcQ4vZRq/Maquettes-projet-individuel-%E2%80%94-L%C3%A9opold-OHNIMUS?node-id=0%3A1&t=ccPBTveqxUVCZidj-1"><img src="../assets/img/figma.png" alt="maquette" class="h-9"></a>
+            <a href="https://github.com/MMI-SAE-105/2022-sae105-projet-OHNIMUS-Leopold"><img src="../assets/img/github.png" alt="code source" class="h-9"></a>
+          </div>
+          <div class="mx-auto"><a href="https://korean-notes.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-black text-xs">https://korean-notes.leopold-ohnimus.fr/</h4></a></div>
+        </div>
         <div class="mt-6 border-black border-2 w-max p-2 flex flex-col ">
           <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">POP KONNECT 서울</h3></div>
           <div class="flex mx-auto space-x-4 my-3">
