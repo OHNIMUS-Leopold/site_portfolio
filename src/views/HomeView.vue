@@ -1,7 +1,7 @@
 <template>
   <div class="mt-8">
     <h1 class="font-Poppins text-black uppercase text-center leading-tight text-5xl font-bold">Léopold Ohnimus</h1>
-    <img class="w-60 mx-auto mt-4" src="/pp.png" alt="Léopold Ohnimus">
+    <img class="w-60 mx-auto mt-4" src="/pp.webp" alt="Léopold Ohnimus">
   </div>
   <div class="mt-8 mb-10 flex flex-col">
     <h2 class="font-Poppins font-bold text-center text-black text-2xl">Mes réseaux</h2>
