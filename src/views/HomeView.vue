@@ -25,7 +25,7 @@
           </div>
           <div class="mx-auto"><a href="https://korean-notes.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://korean-notes.leopold-ohnimus.fr/</h4></a></div>
         </div>
-        <div class="mt-6 border-black border-2 w-[280px] p-2 flex flex-col waa">
+        <div class="mt-6 border-black border-2 w-[280px] p-2 flex flex-col topl">
           <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">POP KONNECT 서울</h3></div>
           <div class="flex mx-auto space-x-4 my-3">
             <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9 icn"></a>
@@ -34,7 +34,7 @@
           </div>
           <div class="mx-auto"><a href="https://pop-konnect.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://pop-konnect.leopold-ohnimus.fr/</h4></a></div>
         </div>
-        <div class="mt-6 border-black border-2 w-[280px] p-2 flex flex-col wii">
+        <div class="mt-6 border-black border-2 w-[280px] p-2 flex flex-col zooomc">
           <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">Citadelle de Besançon</h3></div>
           <div class="flex mx-auto space-x-4 my-3">
             <!-- <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9"></a>
@@ -43,7 +43,7 @@
           </div>
           <div class="mx-auto"><a href="https://citadelle-besancon.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://citadelle-besancon.leopold-ohnimus.fr/</h4></a></div>
         </div>
-        <div class="mt-6 border-black border-2 w-[280px] p-2 flex flex-col woo">
+        <div class="mt-6 border-black border-2 w-[280px] p-2 flex flex-col top">
           <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">TP Maquette WP</h3></div>
           <div class="flex mx-auto space-x-4 my-3">
             <!-- <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9"></a>
@@ -51,6 +51,15 @@
             <a href="https://tp-wordpress.leopold-ohnimus.fr/"><img src="../assets/img/wordpress.png" alt="site" class="h-9 icn"></a>
           </div>
           <div class="mx-auto"><a href="https://tp-wordpress.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://tp-wordpress.leopold-ohnimus.fr/</h4></a></div>
+        </div>
+        <div class="mt-6 border-black border-2 w-[280px] p-2 flex flex-col woo">
+          <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">Portraits de MMI</h3></div>
+          <div class="flex mx-auto space-x-4 my-3">
+            <!-- <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9"></a>
+            <a href="https://www.figma.com/file/p36UwfbiOgsrn7BNV9gT37/R209---Maquettes---L%C3%A9opold-OHNIMUS"><img src="../assets/img/figma.png" alt="maquette" class="h-9"></a> -->
+            <a href="https://github.com/OHNIMUS-Leopold/Portraits_TP"><img src="../assets/img/github.png" alt="code source" class="h-9 icn"></a>
+          </div>
+          <div class="mx-auto"><a href="https://portraits.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://portraits.leopold-ohnimus.fr/</h4></a></div>
         </div>
       </div>
   </div>
@@ -113,7 +122,7 @@ body {
 
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .woo {
     animation: wooo 1.6s infinite;
 }
@@ -160,6 +169,52 @@ body {
         animation-timing-function: cubic-bezier(0,0,0.2,1);
     }
 }
+
+
+.top {
+  animation: monte linear 3s infinite;
+}
+
+@keyframes monte {
+  40% {
+    transform: translateY(-300px) ;
+  }
+  80% {
+    transform: translateY(-500px) translateX(200px) rotate(360deg);
+  }
+  100% {
+    transform: translateY(-500px) translateX(200px) rotate(360deg);
+  }
+}
+
+.topl {
+  animation: montel linear 3s infinite;
+}
+
+@keyframes montel {
+  40% {
+    transform: translateY(-300px) ;
+  }
+  80% {
+    transform: translateY(-500px) translateX(-200px) rotate(-360deg);
+  }
+  100% {
+    transform: translateY(-500px) translateX(-200px) rotate(-360deg);
+  }
+}
+
+
+.zooomc {
+    /* animation: zooom 1s cubic-bezier(0, 0, 0.2, 1) infinite; */
+    animation: zooomc 0.2s infinite;
+  }
+
+@keyframes zooomc {
+     100% {
+        opacity: 0;
+    }
+}
+
 }
 
 
