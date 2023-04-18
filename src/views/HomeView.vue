@@ -1,7 +1,8 @@
 <template>
   <div class="mt-8">
     <h1 class="font-Poppins text-black uppercase text-center leading-tight text-5xl font-bold zooom">Léopold Ohnimus</h1>
-    <img class="w-60 mx-auto mt-4 rounded-full" src="/pp.webp" alt="Léopold Ohnimus">
+    <h2 class="font-Poppins font-bold text-center mx-2 mt-2 text-black text-2xl">Recherche une alternance en Développement Web</h2>
+    <img class="w-60 mx-auto mt-6 rounded-full" src="/pp.webp" alt="Léopold Ohnimus">
   </div>
   <div class="mt-8 mb-10 flex flex-col">
     <h2 class="font-Poppins font-bold text-center text-black text-2xl">Mes réseaux</h2>
@@ -45,6 +46,16 @@
             <a href="https://github.com/OHNIMUS-Leopold/code_citadelle"><img src="../assets/img/github.png" alt="code source" class="h-9 icn"></a>
           </div>
           <div class="mx-auto"><a href="https://citadelle-besancon.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://citadelle-besancon.leopold-ohnimus.fr/</h4></a></div>
+        </div>
+        <div class="mt-4 border-black border-2 w-[280px] p-2 flex flex-col top">
+          <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">Bénévol'Action</h3></div>
+          <div class="mx-auto"><p class="font-Poppins font-normal text-center text-black text-xs">(Desktop)</p></div>
+          <div class="flex mx-auto space-x-4 my-3">
+            <!-- <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9"></a> -->
+            <a href="https://www.figma.com/file/eNXiO3YIp3W1GOZtyskWZM/SAE-202-Adrien-Leveque%2C-Leopold-Onhimus%2C-Thomas-Poupon?node-id=0%3A1&t=yC9WD2tzkrVtq3Q9-1"><img src="../assets/img/figma.png" alt="maquette" class="h-9 icn"></a> 
+            <a href="https://benevol-action.leopold-ohnimus.fr/"><img src="../assets/img/wordpress.png" alt="site" class="h-9 icn"></a>
+          </div>
+          <div class="mx-auto"><a href="https://benevol-action.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://benevol-action.leopold-ohnimus.fr/</h4></a></div>
         </div>
         <div class="mt-4 border-black border-2 w-[280px] p-2 flex flex-col top">
           <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">TP Maquette WP</h3></div>
