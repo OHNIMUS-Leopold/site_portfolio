@@ -37,6 +37,16 @@
           </div>
           <div class="mx-auto"><a href="https://pop-konnect.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://pop-konnect.leopold-ohnimus.fr/</h4></a></div>
         </div>
+        <div class="mt-4 border-black border-2 w-[280px] p-2 flex flex-col woo">
+          <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">Academ'Art</h3></div>
+          <div class="mx-auto"><p class="font-Poppins font-normal text-center text-black text-xs">(Mobile & Desktop)</p></div>
+          <div class="flex mx-auto space-x-4 my-3">
+            <!-- <a href="https://www.figma.com/file/bMuNkyo4yT6sfkvQGzqfrE/R209---L%C3%A9opold-OHNIMUS?node-id=0%3A1"><img src="../assets/img/figma.png" alt="identité visuelle" class="h-9"></a> -->
+            <a href="https://www.figma.com/file/XbGEkPrxTERBzHkifKyiGs/SAE-105_Leopold_OHNIMUS_B2?type=design&node-id=0%3A1&t=2ixGWrSIXHEE5w1O-1"><img src="../assets/img/figma.png" alt="maquette" class="h-9 icn"></a>
+            <a href="#"><img src="../assets/img/github.png" alt="code source" class="h-9 icn"></a>
+          </div>
+          <div class="mx-auto"><a href="https://academart-vps.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://academart-vps.leopold-ohnimus.fr/</h4></a></div>
+        </div>
         <div class="mt-4 border-black border-2 w-[280px] p-2 flex flex-col zooomc">
           <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">Citadelle de Besançon</h3></div>
           <div class="mx-auto"><p class="font-Poppins font-normal text-center text-black text-xs">(Illustration SVG)</p></div>
