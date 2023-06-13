@@ -65,7 +65,7 @@
             <a href="https://www.figma.com/file/TrHg79TeKstaMZv06GF4Q3/Projet_S2_Adrien_Leveque_Leopold_Ohnimus_Thomas_Poupon?node-id=301%3A179&t=6WDztekiaFes032p-1"><img src="../assets/img/figma.png" alt="maquette" class="h-9 icn"></a>
             <a href="https://github.com/OHNIMUS-Leopold/statio"><img src="../assets/img/github.png" alt="code source" class="h-9 icn"></a>
           </div>
-          <div class="mx-auto"><a href="#"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://statio.leopold-ohnimus.fr/</h4></a></div>
+          <div class="mx-auto"><a href="https://statio.leopold-ohnimus.fr/"><h4 class="font-Poppins font-normal text-center text-black text-xs">https://statio.leopold-ohnimus.fr/</h4></a></div>
         </div>
         <div class="mt-4 border-black border-2 w-[280px] p-2 flex flex-col top">
           <div class="mx-auto"><h3 class="font-Poppins font-normal text-black text-xl">Site promotionnel Statio</h3></div>
